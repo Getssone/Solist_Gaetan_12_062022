@@ -1,0 +1,19 @@
+.mainDashboard {
+  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.allFigures {
+  width: 90%;
+  margin-left: 12rem;
+}
+
+.figures {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}

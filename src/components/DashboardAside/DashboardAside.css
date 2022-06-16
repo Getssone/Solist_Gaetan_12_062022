@@ -1,0 +1,29 @@
+.dashboard-aside {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 6rem;
+}
+.count {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin: 1rem 0;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 3rem 3rem;
+}
+.textCount {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 0.5;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #282d30;
+}
+.textCount p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #74798c;
+}

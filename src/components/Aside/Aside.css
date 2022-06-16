@@ -1,0 +1,32 @@
+.aside {
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  background: #020203;
+  position: absolute;
+  padding: 0 0 20rem 0;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.aside-icones {
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 12rem 1rem;
+  margin: 0;
+}
+.aside-icones li {
+  padding: 1rem 0;
+}
+.copyright {
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 10rem;
+  left: -3.5rem;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  width: 199px;
+}

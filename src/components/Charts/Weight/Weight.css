@@ -1,0 +1,53 @@
+.WeightContainer {
+  width: 99%;
+  background-color: #fbfbfb;
+  margin-top: 4rem;
+  border-radius: 5px;
+}
+
+.custom-tooltip {
+  background-color: #e60000;
+  padding: 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 2rem;
+}
+
+.WeightLegend {
+  width: 90%;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.WeightTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 0.8rem;
+}
+.WeightCircles {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #74798c;
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+.WeightCircle {
+  display: flex;
+}
+.weight-circle_black {
+  width: 0.6rem;
+  height: 0.65rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  margin-top: 1.2rem;
+  margin-right: 0.5rem;
+}
+.weight-circle_red {
+  width: 0.6rem;
+  height: 0.65rem;
+  background-color: #e60000;
+  border-radius: 0.3rem;
+  margin-top: 1.2rem;
+  margin-right: 0.5rem;
+}

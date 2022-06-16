@@ -1,0 +1,29 @@
+.construction {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.construction h1{
+  color: black ;
+  margin-left: 0rem;
+}
+
+.logo-react {
+  width: 5rem;
+}
+.logo-react2 {
+  width: 5rem;
+}
+
+.logo-sportsee {
+  transform: rotate(-25deg);
+}
+.construction i {
+  font-size: 2rem;
+  color: #ff0101;
+  padding: 0 1rem;
+}

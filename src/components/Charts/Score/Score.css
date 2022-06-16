@@ -1,0 +1,42 @@
+.ScoreContainer {
+  width: 19vw;
+  height: 19vw;
+  position: relative;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+
+.ScoreTitle {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #20253a;
+}
+.ScoreLegend {
+  color: #282d30;
+  font-size: 0.8rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.ScoreLegend p {
+  margin: 0;
+  text-align: center;
+}
+.scoreLabel {
+  font-size: 1.8rem;
+  font-weight: 700;
+ 
+}
