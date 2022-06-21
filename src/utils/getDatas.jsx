@@ -15,13 +15,14 @@ export default class GetData {
    * @returns A promise with the User model object of this user
    * @numberof GetData
    */
+  
   async getInfo(userId) {
     try {
     //mocked data
-    //const response = await fetch("../" + userId + ".json");
+    const response = await fetch( userId + ".json");
     //API
-    const response = await fetch("http://localhost:3000/user/" + userId);
-      console.log("http://localhost:3000/user/" + userId)
+    // const response = await fetch("http://localhost:3000/user/" + userId);
+      // console.log("http://localhost:3000/user/" + userId)
       const datas = await response.json();
       return new User(datas.data)
       
@@ -39,10 +40,10 @@ export default class GetData {
   async getActivity(userId) {
     try {
       //mocked data
-      //const response = await fetch("../" + userId + "/activity.json");
+      const response = await fetch(userId + "/activity.json");
       //API
-      const response = await fetch("http://localhost:3000/user/" + userId +"/activity");
-      console.log("http://localhost:3000/user/" + userId +"/activity")
+      // const response = await fetch("http://localhost:3000/user/" + userId +"/activity");
+      // console.log("http://localhost:3000/user/" + userId +"/activity")
       const datas = await response.json();
       return new Activity(datas.data)
       
@@ -60,10 +61,10 @@ export default class GetData {
   async getAverageSession(userId) {
     try {
       //mocked data
-      //const response = await fetch("../" + userId + "/average-session.json");
+      const response = await fetch( userId + "/average-session.json");
       //API
-      const response = await fetch("http://localhost:3000/user/" + userId +"/average-sessions");
-      console.log("http://localhost:3000/user/" + userId +"/average-sessions")
+      // const response = await fetch("http://localhost:3000/user/" + userId +"/average-sessions");
+      // console.log("http://localhost:3000/user/" + userId +"/average-sessions")
       const datas = await response.json();
       return new Session(datas.data)
       
@@ -81,10 +82,10 @@ export default class GetData {
   async getPerformance(userId) {
     try {
       //mocked data
-      //const response = await fetch("../" + userId + "/performance.json");
+      const response = await fetch(userId + "/performance.json");
       //API
-      const response = await fetch("http://localhost:3000/user/" + userId +"/performance");
-      console.log("http://localhost:3000/user/" + userId +"/performance")
+      // const response = await fetch("http://localhost:3000/user/" + userId +"/performance");
+      // console.log("http://localhost:3000/user/" + userId +"/performance")
       const datas = await response.json();
       return new Performance(datas.data);
     } catch (error) {

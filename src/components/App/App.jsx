@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 //import Header from "../Header/Header";
 //import Aside from "../Aside/Aside";
 import Home from "../../pages/Home/Home";
@@ -15,9 +15,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/user/:id" component={Dashboard} />
+          <Route path="/user/:id" exact component={Dashboard} />
           <Route component={Error} />
         </Switch>
+        <Redirect from='*' to='/404' />
       </Router>
     </React.StrictMode>
   );
